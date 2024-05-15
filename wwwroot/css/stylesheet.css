@@ -1,0 +1,151 @@
+﻿.container {
+    margin:0px 60px;   
+}
+
+.container table {
+    border-collapse: collapse;
+    font-family: Calibri;
+}
+
+.table_header{   
+    width: 30cm;
+}
+
+.table_body{
+    width: 30cm;
+    overflow-y:auto;
+    height:500px;
+}
+
+.heading_button{
+    border-color:white;
+    width:60px;
+    background-color:white;
+}
+
+.data_row {
+    height:30px;
+    border:1px solid dimgrey;
+}
+
+.container th,td{
+    padding-top:5px;
+}
+
+.table_heading{
+    width:6cm;
+    background-color:cornflowerblue;
+    text-align:center;
+    color:white;
+}
+
+.add_edit_dialog {
+    width: 310px;
+    top: 100px;
+    border-radius: 5px;
+    display: block;
+}
+
+.table_data {  
+    width:6cm;
+    text-align:center;
+}
+
+.input_field{
+    width:300px;
+    height:25px;
+    border-radius:5px;
+    margin-bottom:5px;
+}
+
+.dialogButtons {
+    width: 80px;
+    height: 35px;
+    color: white;
+    border:none;
+    background-color: green;
+    margin-left: 148px;
+    border-radius: 5px;
+}
+
+.cancel_dialog_button {
+    width: 80px;
+    height: 35px;
+    color: white;
+    border:none;
+    background-color: red;
+    border-radius: 5px;
+    margin-left:2px;
+}
+
+.table_heading_buttons {
+    height: 30px;
+    background-color: white;
+    border: 1px solid dimgrey;
+}
+
+.e-rowselected{
+    background-color:chocolate;
+    color:white;
+}
+
+.e-rowhover{
+    background-color:bisque;
+    color:black;
+}
+.add_edit_dialog h3{
+    margin: 10px 0px 0px;
+}
+
+.deletecontainer {
+    font-family: Calibri;
+    height: 170px;
+    width: 350px;
+    top: 160px;
+    display: block;
+}
+
+.delete_yes_button {
+    width: 80px;
+    height: 35px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    margin-left: 188px;
+}
+.delete_no_button {
+    width: 80px;
+    height: 35px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    margin-left: 2px;
+}
+
+.deletecontainer p{
+    margin: 10px 15px 0px;
+    text-align: center;
+}
+
+.table_title {
+    border-left: 1px solid dimgrey;
+    border-right: 1px solid dimgrey;
+    height: 30px;
+}
+
+.deletecontainer h3{
+    margin: 10px 0px 0px;
+}
+.edit_bookID_input_field {
+    background-color: lightgrey;
+    border-color: black;
+    text-align: right;
+    font-weight: 700;
+    color: black;
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
